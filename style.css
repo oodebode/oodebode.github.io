@@ -465,3 +465,13 @@ footer p {
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
 }
+
+.about-left a {
+  color: var(--navy-light);
+  border-bottom: 1px solid var(--border);
+  transition: border-color 0.2s, color 0.2s;
+}
+.about-left a:hover {
+  color: var(--navy);
+  border-color: var(--navy-light);
+}
