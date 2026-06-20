@@ -535,7 +535,7 @@ footer p {
   display: grid;
   grid-template-columns: 52px 1fr;
   gap: 28px;
-  padding: 18px 0;
+  padding: 22px 0;
   border-bottom: 1px solid var(--border);
   align-items: center;
 }
@@ -545,21 +545,11 @@ footer p {
   color: var(--text-muted);
   letter-spacing: 0.04em;
 }
-.award-body {
-  display: flex;
-  align-items: baseline;
-  gap: 12px;
-  flex-wrap: wrap;
-}
 .award-title {
   font-size: 15px;
   color: var(--text-dark);
   font-weight: 500;
-}
-.award-title::after {
-  content: "·";
-  margin-left: 12px;
-  color: var(--border);
+  margin-bottom: 3px;
 }
 .award-org {
   font-size: 13px;
