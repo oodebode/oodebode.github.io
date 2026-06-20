@@ -525,3 +525,33 @@ footer p {
   align-self: center;
   transition: transform 0.2s, color 0.2s;
 }
+
+/* ─── AWARDS ─────────────────────────────────────────────────── */
+.awards-list {
+  border-top: 1px solid var(--border);
+  margin-top: 8px;
+}
+.award-item {
+  display: grid;
+  grid-template-columns: 52px 1fr;
+  gap: 28px;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+}
+.award-year {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+}
+.award-title {
+  font-size: 15px;
+  color: var(--text-dark);
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.award-org {
+  font-size: 13px;
+  color: var(--text-muted);
+}
