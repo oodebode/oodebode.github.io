@@ -467,11 +467,11 @@ footer p {
 }
 
 .about-left a {
-  color: var(--navy-light);
-  border-bottom: 1px solid var(--border);
+  color: var(--blue-mid);
+  border-bottom: 1px solid var(--blue-light);
   transition: border-color 0.2s, color 0.2s;
 }
 .about-left a:hover {
-  color: var(--navy);
-  border-color: var(--navy-light);
+  color: var(--navy-light);
+  border-color: var(--blue-mid);
 }
