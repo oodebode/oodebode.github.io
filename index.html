@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. [Your Name] — Neuroscience Research</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a href="#" class="nav-name">Dr. [Your Name]</a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header id="hero">
+    <canvas id="neural-canvas"></canvas>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Neuroscience · [University Name]</p>
+      <h1>Dr. [Your Name]</h1>
+      <p class="hero-sub">Investigating how the brain encodes memory and<br>constructs representations of the world.</p>
+      <div class="hero-links">
+        <a href="#research" class="btn-primary">View Research</a>
+        <a href="cv.pdf" class="btn-ghost" target="_blank">Download CV</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container two-col">
+      <div class="about-left">
+        <div class="section-label">About</div>
+        <h2>Building a map of memory</h2>
+        <p>I am an assistant professor in the Department of Neuroscience at [University]. My lab studies the cellular and circuit mechanisms underlying memory formation and retrieval, with a particular focus on the hippocampal-cortical dialogue during sleep.</p>
+        <p>Before joining [University], I completed my PhD at [Institution] with [Advisor Name] and my postdoctoral training at [Institution] in the [Lab Name] laboratory.</p>
+        <div class="affiliation-badges">
+          <span class="badge">[University] Neuroscience</span>
+          <span class="badge">NIH-funded</span>
+          <span class="badge">Open Science</span>
+        </div>
+      </div>
+      <div class="about-right">
+        <div class="photo-placeholder">
+          <!-- Replace with: <img src="images/photo.jpg" alt="Dr. [Your Name]"> -->
+          <div class="photo-initials">[YN]</div>
+        </div>
+        <div class="quick-stats">
+          <div class="stat">
+            <span class="stat-num">12</span>
+            <span class="stat-label">Publications</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">340+</span>
+            <span class="stat-label">Citations</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">6</span>
+            <span class="stat-label">Lab members</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section id="research" class="section-alt">
+    <div class="container">
+      <div class="section-label">Research</div>
+      <h2>Current directions</h2>
+      <p class="section-intro">We combine electrophysiology, calcium imaging, optogenetics, and computational modeling to understand how experience shapes neural circuits.</p>
+
+      <div class="research-grid">
+        <div class="research-card">
+          <div class="card-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="5" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="8" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="32" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="8" cy="30" r="3" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="32" cy="30" r="3" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="11" y1="12" x2="17" y2="17" stroke="currentColor" stroke-width="1"/>
+              <line x1="29" y1="12" x2="23" y2="17" stroke="currentColor" stroke-width="1"/>
+              <line x1="11" y1="28" x2="17" y2="23" stroke="currentColor" stroke-width="1"/>
+              <line x1="29" y1="28" x2="23" y2="23" stroke="currentColor" stroke-width="1"/>
+            </svg>
+          </div>
+          <h3>Hippocampal memory consolidation</h3>
+          <p>How sharp-wave ripples during NREM sleep coordinate the transfer of newly learned information from hippocampus to neocortex. We record from large populations of neurons across brain regions to track this process in real time.</p>
+        </div>
+
+        <div class="research-card">
+          <div class="card-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 32 C8 20, 16 8, 20 8 C24 8, 32 20, 32 32" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <circle cx="20" cy="8" r="2.5" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="14" y1="24" x2="26" y2="24" stroke="currentColor" stroke-width="1" stroke-dasharray="2 2"/>
+              <circle cx="14" cy="24" r="2" fill="currentColor" opacity="0.6"/>
+              <circle cx="26" cy="24" r="2" fill="currentColor" opacity="0.6"/>
+            </svg>
+          </div>
+          <h3>Place cell dynamics and navigation</h3>
+          <p>The mechanisms by which hippocampal place cells remap in response to environmental change. We ask how the brain distinguishes between familiar and novel contexts and updates its internal map accordingly.</p>
+        </div>
+
+        <div class="research-card">
+          <div class="card-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="14" width="28" height="16" rx="3" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M12 22 L16 18 L20 24 L24 20 L28 22" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="20" y1="6" x2="20" y2="14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="14" y1="30" x2="14" y2="36" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="26" y1="30" x2="26" y2="36" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Circuit-level memory disorders</h3>
+          <p>Translational work examining how hippocampal circuit dysfunction in mouse models of Alzheimer's disease disrupts normal memory processes, with the goal of identifying early biomarkers and intervention targets.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications">
+    <div class="container">
+      <div class="section-label">Publications</div>
+      <h2>Selected work</h2>
+
+      <div class="pub-list">
+        <div class="pub-item">
+          <span class="pub-year">2024</span>
+          <div class="pub-body">
+            <p class="pub-title">[Your Name], Coauthor A, Coauthor B. "Sharp-wave ripple modulation predicts memory specificity during targeted memory reactivation." <em>Nature Neuroscience</em>, 27(4), 612–625.</p>
+            <div class="pub-links">
+              <a href="#" class="pub-link">PDF</a>
+              <a href="#" class="pub-link">DOI</a>
+              <a href="#" class="pub-link">Data & code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <span class="pub-year">2023</span>
+          <div class="pub-body">
+            <p class="pub-title">Coauthor A, <strong>[Your Name]</strong>, Coauthor C. "Calcium imaging reveals heterogeneous remapping strategies across hippocampal subfields." <em>Neuron</em>, 111(18), 2891–2907.</p>
+            <div class="pub-links">
+              <a href="#" class="pub-link">PDF</a>
+              <a href="#" class="pub-link">DOI</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <span class="pub-year">2022</span>
+          <div class="pub-body">
+            <p class="pub-title">[Your Name], Coauthor D. "Optogenetic dissection of the CA3-CA1 pathway during spatial learning in freely moving mice." <em>Current Biology</em>, 32(12), 2645–2659.</p>
+            <div class="pub-links">
+              <a href="#" class="pub-link">PDF</a>
+              <a href="#" class="pub-link">DOI</a>
+              <a href="#" class="pub-link">Data & code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <span class="pub-year">2021</span>
+          <div class="pub-body">
+            <p class="pub-title">Coauthor B, Coauthor E, <strong>[Your Name]</strong>. "Theta-gamma coupling indexes working memory load in prefrontal-hippocampal circuits." <em>Journal of Neuroscience</em>, 41(8), 1723–1740.</p>
+            <div class="pub-links">
+              <a href="#" class="pub-link">PDF</a>
+              <a href="#" class="pub-link">DOI</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://scholar.google.com" class="btn-outline" target="_blank">Full publication list →</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section-dark">
+    <div class="container contact-inner">
+      <div class="section-label light">Contact</div>
+      <h2>Get in touch</h2>
+      <p class="contact-sub">Prospective students, collaborators, and journalists are welcome to reach out. I try to respond within a week.</p>
+
+      <div class="contact-grid">
+        <div class="contact-item">
+          <span class="contact-label">Email</span>
+          <a href="mailto:yourname@university.edu">yourname@university.edu</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Office</span>
+          <span>[Building Name], Room [#]<br>[University], [City], [State]</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Links</span>
+          <div class="contact-links">
+            <a href="#" target="_blank">Google Scholar</a>
+            <a href="#" target="_blank">Twitter / X</a>
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">ORCID</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Dr. [Your Name]. Built with plain HTML.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
