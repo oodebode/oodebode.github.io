@@ -555,3 +555,26 @@ footer p {
   font-size: 13px;
   color: var(--text-muted);
 }
+
+/* ─── FMRI GIF ───────────────────────────────────────────────── */
+.fmri-block {
+  margin-top: 28px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.fmri-gif {
+  width: 100%;
+  display: block;
+  opacity: 0.88;
+  filter: saturate(1.1) contrast(1.05);
+}
+.fmri-caption {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding: 10px 14px;
+  background: var(--blue-pale);
+  border-top: 1px solid var(--border);
+}
