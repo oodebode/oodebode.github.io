@@ -394,6 +394,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
+  align-items: start;
 }
 .contact-label {
   display: block;
