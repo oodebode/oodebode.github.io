@@ -570,3 +570,7 @@ footer p {
   opacity: 0.75;
   filter: brightness(1.1) contrast(1.05);
 }
+
+.contact-item .fmri-block {
+  margin-top: 0;
+}
