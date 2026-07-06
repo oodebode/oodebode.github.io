@@ -3,7 +3,7 @@
    background. Nodes drift slowly; edges fade based on distance.
 ──────────────────────────────────────────────────────────────── */
 
-(function () {
+/* (function () {
   const canvas = document.getElementById('neural-canvas');
   const ctx    = canvas.getContext('2d');
 
@@ -92,7 +92,7 @@
     loop();
     window.addEventListener('resize', () => { resize(); });
   }
-})();
+})(); */
 
 
 /* ─── SCROLL FADE-IN ──────────────────────────────────────────
