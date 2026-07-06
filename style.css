@@ -574,3 +574,11 @@ footer p {
 .contact-item .fmri-block {
   margin-top: 0;
 }
+
+.hero-bg-gif {
+  position: absolute;
+  inset: 0;
+  background: url('images/subject_image.gif') center center / cover no-repeat;
+  opacity: 0.18;
+  z-index: 0;
+}
