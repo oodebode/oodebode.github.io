@@ -81,13 +81,13 @@ img { display: block; max-width: 100%; }
   background: var(--navy);
   overflow: hidden;
 }
-/* #neural-canvas {
+#neural-canvas {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   opacity: 0.55;
-} */
+}
 
 .hero-content {
   position: relative;
@@ -576,12 +576,3 @@ footer p {
   margin-top: 0;
 }
 
-.hero-bg-video {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.35;
-  z-index: 0;
-}
