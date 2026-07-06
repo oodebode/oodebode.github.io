@@ -579,6 +579,6 @@ footer p {
   position: absolute;
   inset: 0;
   background: url('images/subject_image.gif') center center / cover no-repeat;
-  opacity: 0.18;
+  opacity: 0.35;
   z-index: 0;
 }
